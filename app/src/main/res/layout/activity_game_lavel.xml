@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im_back"
+    tools:context=".GameLavelActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="1">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="2">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="3">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="4">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="5">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="6">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="7">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="8">
+
+        </TextView>
+
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="9">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="10">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="11">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="12">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="13">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="14">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="15">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="16">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:text="17">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:text="18">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:text="19">
+
+        </TextView>
+
+        <TextView
+            style="@style/lavels_rv_style"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:text="20">
+
+        </TextView>
+
+
+    </GridLayout>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/my_button_style"
+        android:text="BACK"
+        android:textAllCaps="false"
+        android:layout_marginEnd="5dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/gridLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout2">
+
+    </com.google.android.material.button.MaterialButton>
+</androidx.constraintlayout.widget.ConstraintLayout>
