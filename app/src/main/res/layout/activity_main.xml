@@ -49,6 +49,7 @@
         android:scaleType="centerInside"/>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_Start"
         style="@style/my_button_style"
         android:layout_width="176dp"
         android:layout_height="wrap_content"

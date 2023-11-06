@@ -18,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/tv_level_1"
             style="@style/lavels_rv_style"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -222,6 +223,7 @@
     </GridLayout>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_game_level_back"
         style="@style/my_button_style"
         android:text="BACK"
         android:textAllCaps="false"

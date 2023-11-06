@@ -24,7 +24,8 @@
 
 
 
-    <style name="card_tv_file">
+    <style name="card_tv_style">
+        <item name="android:background">@drawable/tv_style_white_40</item>
         <item name="android:shadowColor">@color/black_95</item>
         <item name="android:shadowDx">10</item>
         <item name="android:shadowRadius">10</item>
